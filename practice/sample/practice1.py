@@ -3,7 +3,6 @@ import openpyxl
 wb = openpyxl.Workbook()
 ws = wb.worksheets[0]
 ws.title = "20201127"
-ws.sheet_properties.tabColor = "red"
 
 member_list = [
     "津山 太郎",
